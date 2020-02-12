@@ -1,0 +1,13 @@
+body{
+    background-color:#BADA55;
+}
+img{
+    border-color: black;
+    border-radius: 30px;
+    /*respornsive*/
+    max-width: 100%;
+    vertical-align: top;
+}
+th{
+    border-color: black;
+}
