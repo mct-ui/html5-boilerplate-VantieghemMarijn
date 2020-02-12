@@ -1,9 +1,10 @@
-html{
+html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "helvetica Neue", Helvetica,Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
-    padding: 24px 24px 0;
+    padding: 48px 24px 24px;
+    scroll-behavior: smooth;
 }
 body{
     background-color:#BADA55;
@@ -31,4 +32,103 @@ a:visited,a:active{
 }
 a:hover,a:focus{
     color: crimson;
+}
+@media (min-width: 768px) {
+    h1{
+        font-size: 58px;
+        line-height: 64px;
+    }
+}
+@media (min-width: 768px) {
+    html{
+        padding:48px 48px 24px;
+    }
+}
+h1 {
+    font-family: "Times New Roman",serif;
+    font-size:36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 40px;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+    margin: 0 0 24px;
+}
+
+ul,
+ol{
+    padding-left: 24px;
+}
+blockquote {
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman",serif;
+}
+
+li ul,
+li ol{
+    margin-bottom: 0;
+
+}
+
+blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+figcaption {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: grey;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: lightgrey;
+    margin: 0 0 24px;
+}
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+th{
+    text-align: left;
+}
+th,
+td{
+    padding:4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+.odd{
+    background-color: whitesmoke;
 }
