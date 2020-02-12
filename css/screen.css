@@ -1,3 +1,10 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "helvetica Neue", Helvetica,Arial, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
+}
 body{
     background-color:#BADA55;
 }
@@ -8,6 +15,20 @@ img{
     max-width: 100%;
     vertical-align: top;
 }
-th{
-    border-color: black;
+::-moz-selection,::selection{
+    background: #44c8f5;
+    color: white;
+    text-shadow: none;
+
+}
+a{
+    color: royalblue;
+    transition: all .1s ease-in-out;
+}
+
+a:visited,a:active{
+    color: blueviolet;
+}
+a:hover,a:focus{
+    color: crimson;
 }
